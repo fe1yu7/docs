@@ -2,7 +2,7 @@
 
 > An awesome project.
 ```python
-asd
+'''我可以被复制'''
 ```
 ## 2级标题
 

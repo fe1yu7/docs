@@ -2,15 +2,18 @@
 
 > 轻便 快捷 可靠
 
-## Init
+## clone
+```
+git clone git@git.arrway.cn:company/arrplat-docs.git
+```
+## init
 ```
 cnpm install -g docsify-cli
-
-docsify init
 
 ```
 
 ## RUN
 ```
+cd arrplat-docs
 docsify serve
 ```
