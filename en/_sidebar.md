@@ -1,2 +1,2 @@
-* [index](/en/page1.md)
-* [about me](/en/page2.md)
+* [Preface](/en/page1.md)
+* [Install](/en/page2.md)

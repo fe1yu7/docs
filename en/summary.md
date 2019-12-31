@@ -1,3 +1,3 @@
 - Translations
   - [:uk: English](/en/)
-  - [:cn: ä¸­æ–‡](/zh-cn/)
+  - [:cn: 中文](/zh-cn/)
