@@ -14,6 +14,18 @@ cnpm install -g docsify-cli
 
 ## RUN
 ```
-cd arrplat-docs
+cd arrplat-docs    
+
+# default port is 3000
+#You can customize your port  
 docsify serve
+or
+docsify s  
+
+
+e.g.  
+docsify serve <path> [--open false] [--port 3000]
 ```
+
+
+
