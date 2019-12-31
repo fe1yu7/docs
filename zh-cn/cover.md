@@ -4,6 +4,6 @@
     <blockquote>
         <p>Arrplat官方文档</p></blockquote>
     <p><a href="https://github.com/docsifyjs/docsify/" target="_blank" rel="noopener">GitHub</a>
-        <a href="#zh-cn/page1">Getting Started</a></p></div>
+        <a href="#zh-cn/Introduce">Getting Started</a></p></div>
         
 ![image](/_media/background.jpg)
