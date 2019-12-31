@@ -19,73 +19,43 @@
     }
 </style>
 <body>
-<nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-</nav>
-<div id="app"></div>
+<div id="app"><img src="_media/loading.gif" alt="">
+    <p>loading...</p></div>
 <script>
     window.$docsify = {
-        name: 'Arrplat offical website',
+        name: 'Arrplat',
         repo: 'http://git.arrway.cn/company/arrplat',
         maxLevel: 4,
+        themeColor: '#3181DE',
         // 加载 _sidebar.md
         loadSidebar: true,
         // 加载 summary.md
         loadNavbar: 'summary.md',
         alias: {
+            '/_404.md': 'en/_404.md',
             '/zh-cn/_sidebar.md': 'zh-cn/_sidebar.md',
+            '/zh-cn/home.md': 'zh-cn/_sidebar.md',
+            // '/home.md': 'en/home.md',
+            // '/en/home.md': 'en/home.md',
+            '/_media/(.*?)': '/_media/$1',
             '/_sidebar.md': 'en/_sidebar.md',
             '/.*/_navbar.md': '/_navbar.md',
             '/zh-cn/(.*)': '/zh-cn/$1',
             '/en/(.*)': '/en/$1',
+            '/(.*)': '/en/$1',
+
 
         },
-        // coverpage: true,
-        // 自定义文件名
-        // coverpage: 'cover.md',
-        // mutiple covers
-        // coverpage: ['/', '/zh-cn/'],
+
         // mutiple covers and custom file name
         coverpage: {
             '/en/': 'cover.md',
             '/': 'en/cover.md',
             '/zh-cn/': 'cover.md'
         },
-        subMaxLevel: 2,
-        // 切换页面后是否自动跳转到页面顶部
-        // auto2top: true,
-        // 入口文件改为 /home.md
-        homepage: 'home.md',
+        subMaxLevel: 4,
 
-        /* 文档加载的根路径，可以是二级路径或者是其他域名的路径。
-        basePath: '/path/',
-        // 直接渲染其他域名的文档
-        basePath: 'https://docsify.js.org/',
-        // 甚至直接渲染其他仓库 readme
-        basePath:
-        'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/'
-        */
-
-        // logo: '/_media/logo.png',
-        // 按照路由切换
-        // nameLink: {
-        //     '/zh-cn/': '/zh-cn/',
-        //     '/': '/',
-        //     '/de-de': '/de-de',
-        // },
-        themeColor: '#00aa1d',
-        // fallbackLanguages: ['fr', 'de', 'zh-cn', 'en'],
         notFoundPage: true,
-
-        // search: 'asda', // 默认值
-        //
-        // search: [
-        //     '/',            // => /README.md
-        //     '/guide',       // => /guide.md
-        //     '/get-started', // => /get-started.md
-        //     '/zh-cn/',      // => /zh-cn/README.md
-        // ],
 
         // 完整配置参数
         search: {
@@ -111,7 +81,7 @@
                 var footer = [
                     '<hr/>',
                     '<footer>',
-                    '<span>Copyright © 2019.<a href="http://arrway.cn" target="_blank">锐途科技</a> All rights reserved.</span>',
+                    '<span>Copyright © 2019.<a href="http://arrway.cn" target="_blank">Arrplat</a> All rights reserved.</span>',
                     '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
                     '</footer>'
                 ].join('');
@@ -130,19 +100,5 @@
 <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 <script src="//unpkg.com/docsify-copy-code"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
-<!--<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">-->
-<!--<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>-->
-<!--<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>-->
-<!--<script>-->
-<!--    const gitalk = new Gitalk({-->
-<!--        clientID: 'Iv1.714d1ec3db36b3a8',-->
-<!--        clientSecret: '782ed47c827127abd5e024723bf16b0bc9bbb0cf',-->
-<!--        repo: 'docs',-->
-<!--        owner: 'fe1yu7',-->
-<!--        admin: ['fe1yu7'],-->
-<!--        // facebook-like distraction free mode-->
-<!--        distractionFreeMode: false-->
-<!--    })-->
-<!--</script>-->
 </body>
 </html>

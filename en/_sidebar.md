@@ -1,2 +1,3 @@
-* [Preface](/en/page1.md)
-* [Install](/en/page2.md)
+* [Introduce](/en/Introduce.md)
+* [Getting Start](/en/gettingStart.md)
+* [Admin PC](/en/adminPC.md)
